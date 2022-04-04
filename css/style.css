@@ -97,6 +97,7 @@ a {
 }
 
 .header__burger {
+  display: none;
   width: 30px;
   height: 20px;
   background-color: #1488;
