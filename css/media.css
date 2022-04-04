@@ -1,0 +1,13 @@
+@media (max-width: 1366px) {
+  .header__nav {
+    width: 55%;
+}
+
+}
+
+@media (max-width: 1024px) {
+  .header__nav {
+    width: 55%;
+}
+
+}
