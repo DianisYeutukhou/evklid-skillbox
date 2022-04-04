@@ -96,6 +96,12 @@ a {
   line-height: 22px;
 }
 
+.header__burger {
+  width: 30px;
+  height: 20px;
+  background-color: #1488;
+}
+
 /* .header__nav-item:not(:nth-child(6)) {
   padding-right: 82px;
 } */
@@ -112,10 +118,6 @@ a {
 .header__nav-link:active {
   border-bottom: 2px solid #E1670E;
   color: #E1670E;
-}
-
-.header__nav-search {
-  /* margin-top: 27px; */
 }
 
 .header__svg rect {
