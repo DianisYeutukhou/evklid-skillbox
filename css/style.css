@@ -58,7 +58,6 @@ a {
 
 .header__top {
   display: flex;
-  width: 100%;
   justify-content: space-between;
 }
 
@@ -103,10 +102,6 @@ a {
   background-color: #1488;
 }
 
-/* .header__nav-item:not(:nth-child(6)) {
-  padding-right: 82px;
-} */
-
 .header__nav-link {
   color: #333333;
   transition: all .2s ease;
@@ -146,13 +141,13 @@ a {
 }
 
 .project__inner {
+  min-width: 1770;
+  min-height: 721px;
   padding-top: 100px;
   padding-left: 80px;
   background-image: url(/img/project__img.png);
   background-repeat: no-repeat;
-  width: 1770;
-  height: 721px;
-  background-size: contain;
+  background-size: cover;
 }
 
 .project__title {
@@ -160,7 +155,7 @@ a {
   font-size: 70px;
   line-height: 85px;
   color: #FFFFFF;
-  width: 837px;
+  min-width: 837px;
   margin: 0;
   margin-bottom: 24px;
 }
@@ -219,7 +214,6 @@ a {
   padding-top: 426px;
   margin-right: 32px;
   display: block;
-  float: left;
 }
 
 .about__bot {
@@ -397,7 +391,6 @@ a {
   color: #E1670E;
 }
 
-
 .work__name {
   font-weight: bold;
   font-size: 24px;
@@ -417,7 +410,7 @@ a {
   margin-bottom: 50px;
 }
 
-.work-form {
+.work__form {
   display: inline-block;
 }
 
@@ -522,7 +515,7 @@ a {
 
 .questions__slash {
   padding-left: 6px;
-  margin-right: 7px;
+  padding-right: 7px;
   color: #CACACA;
   transition: all .3s ease;
 }
@@ -638,6 +631,7 @@ a {
   line-height: 32px;
   color: #CACACA;
   background-color: #414141;
+  background-size: cover;
   margin-bottom: 23px;
   padding-top: 13px;
   padding-bottom: 16px;
