@@ -467,6 +467,11 @@ section {
   color: #FF9900;
 }
 
+.questions__img {
+  width: 50px;
+  height: 50px;
+}
+
 .questions__img ellipse {
   transition: all .3s ease;
 }
