@@ -258,4 +258,104 @@
   max-width: 368px;
 }
 
+.about__function {
+  padding: 33px 43px;
+}
+
+.about__icon {
+  width: 115px;
+  margin-right: 10px;
+  padding-top: 3px;
+}
+
+.about__svg {
+  width: 111px;
+  height: 120px;
+}
+
+.work__list {
+  max-width: 100%;
+  justify-content: space-between;
+  margin-bottom: 49px;
+}
+
+.work__item {
+  width: 8%;
+}
+
+.work__img {
+  display: block;
+  background: no-repeat url(/img/how__we-768.jpg);
+  margin-bottom: 38px;
+}
+
+.work__inner {
+  background: none;
+}
+
+.work__text {
+  max-width: 668px;
+  margin-bottom: 26px;
+}
+
+.questions__text {
+  margin-bottom: 39px;
+}
+
+.questions__text-2 {
+  margin-top: 31px;
+  margin-bottom: 31px;
+}
+
+.questions__text-3 {
+  width: 80%;
+  margin-top: 31px;
+  margin-bottom: 31px;
+}
+
+.questions__img-3 {
+  margin-bottom: 14px;
+}
+
+.questions__text-4 {
+  margin-bottom: 31px;
+}
+
+.questions__text-5 {
+  margin-top: 31px;
+  margin-bottom: 31px;
+}
+
+.questions__img-5 {
+  margin-bottom: 16px;  
+}
+
+.questions__slash {
+  padding-right: 3px;
+}
+
+.footer__inner {
+  flex-wrap: wrap-reverse;
+}
+
+.footer__icon {
+  margin-bottom: 11px;
+}
+
+.footer__list {
+  display: none;
+}
+
+.footer__center {
+  width: 85%;
+}
+
+.footer__textarea {
+  margin-bottom: 18px;
+}
+
+.footer__btn {
+  margin-right: 7px;
+}
+
 }

@@ -285,7 +285,6 @@ section {
 
 .about__icon {
   width: 190px;
-  display: inline-block;
   margin-right: 47px;  
   padding-top: 3px;
 }
@@ -361,6 +360,12 @@ section {
   color: #E1670E;
 }
 
+.work__img {
+  width: 100%;
+  height: 284px;
+  display: none;
+}
+
 .work__name {
   font-weight: bold;
   font-size: 24px;
@@ -372,7 +377,7 @@ section {
 
 .work__text {
   margin: 0;
-  width: 758px;
+  max-width: 758px;
   font-weight: normal;
   font-size: 16px;
   line-height: 32px;
