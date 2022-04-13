@@ -206,10 +206,10 @@
   .footer__check-label::before {
     height: 14px;
   }
-
 }
 
 @media (max-width:768px) {
+
   .container {
     max-width: 708px;
   }
@@ -303,6 +303,7 @@
 }
 
 .questions__text-2 {
+  width: 73%;
   margin-top: 31px;
   margin-bottom: 31px;
 }
@@ -318,10 +319,12 @@
 }
 
 .questions__text-4 {
+  width: 84%;
   margin-bottom: 31px;
 }
 
 .questions__text-5 {
+  width: 84%;
   margin-top: 31px;
   margin-bottom: 31px;
 }
@@ -336,6 +339,10 @@
 
 .footer__inner {
   flex-wrap: wrap-reverse;
+}
+
+.footer__left {
+  width: 82%;
 }
 
 .footer__icon {
@@ -358,4 +365,44 @@
   margin-right: 7px;
 }
 
+}
+
+@media (max-width:658px) {
+
+
+.project__title {
+  font-size: 35px;
+  line-height: 50px;
+  margin-bottom: 14px;
+}
+
+.project__descr {
+  font-size: 15px;
+  margin-bottom: 21px;
+}
+
+.project__btn {
+  padding: 13px 16px;
+  font-size: 19.4581px;
+}
+
+.about__bot {
+    padding: 34px 39px 34px 139px;
+}
+
+.about__btn {
+    display: none;
+}
+
+.about__function {
+  padding: 13px 10px;
+}
+
+.questions__text {
+    width: 57%;
+}
+
+.work__item {
+  width: 12%;
+}
 }
