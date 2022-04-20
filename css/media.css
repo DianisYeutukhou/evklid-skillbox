@@ -369,56 +369,58 @@
 
 @media (max-width:658px) {
 
-  .project__title {
+.project__title {
     font-size: 35px;
     line-height: 50px;
     margin-bottom: 14px;
-  }
+}
 
   .project__descr {
     font-size: 15px;
     margin-bottom: 21px;
-  }
+}
 
-  .project__btn {
+.project__btn {
     padding: 13px 16px;
     font-size: 19.4581px;
-  }
+}
 
-  .about__bot {
+.about__bot {
     padding: 34px 39px 34px 62px;
-  }
+}
 
-  .about__btn {
+.about__btn {
     display: none;
-  }
+}
 
-  .about__function {
+.about__function {
     padding: 13px 10px;
-  }
+}
 
-  .about__svg {
+.about__svg {
     width: 75px;
     height: 75px;
-  }
+}
 
-  .questions__text {
+.questions__text {
     width: 57%;
-  }
+}
 
-  .work__item {
+.work__item {
     width: 20%;
-  }
+}
 
-  .work__btn-01 {
+.work__btn-01 {
+  margin-right: 5px;
   margin-bottom: 15px;
+  padding: 20px 25px;
 }
 
 .work__btn-02 {
-  padding: 20px 52px;
+  padding: 20px 40px;
 }
 
-.footer__check-label::after {``
+.footer__check-label::after {
   left: 2;
 }
 
