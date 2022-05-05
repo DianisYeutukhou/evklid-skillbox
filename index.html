@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Евклид</title>
-  <link rel="shortcut icon" href="/img/favicon.svg" type="image/svg">
+  <link rel="shortcut icon" href="img/favicon.svg" type="image/svg">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/normalize.css">
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/media.css">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
@@ -29,7 +29,7 @@
           </svg>
         </div>
         </div>
-        <div class="header__right">`
+        <div class="header__right">
         <nav class="header__nav">
           <ul class="header__nav-list">
             <li class="header__nav-item">
@@ -70,28 +70,35 @@
     </div>
   </header>
 
-   <main class="main">
-    <section class="project" id="#projects">
-      <div class="container">
-        <div class="project__slide">
-          <div class="project__inner">
-            <h1 class="project__title">
-              Проектные решения любой сложности
-            </h1>
-            <p class="project__descr">
-              Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом
-              проектантов
-            </p>
-          </div>          
-            <button class="btn project__btn">              
-                Заказать расчёт              
-            </button>           
-        </div>
-      </div>
+   <main class="container">
+    <section class="project__slider" id="#projects">
+
+      <div class="project__inner">
+        <h1 class="project__title">
+          Проектные решения любой сложности
+        </h1>
+        <p class="project__descr">
+          Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом
+          проектантов
+        </p>
+        <button class="btn project__btn">              
+            Заказать расчёт              
+        </button>
+    </div>
+
+  <div class="swiper">
+
+  <div class="swiper-wrapper">
+    <div class="swiper-slide swiper-slide-1"></div>
+    <div class="swiper-slide swiper-slide-2"></div>
+    <div class="swiper-slide swiper-slide-3"></div>
+  </div>
+
+  <div class="swiper-pagination"></div>
+  </div>
     </section>
 
      <section class="about" id="about">
-      <div class="container">
         <h2 class="about__title">
           О нас
         </h2>
@@ -177,11 +184,9 @@
           </div>
 
         </div> 
-      </div>
     </section>
 
     <section class="work">
-      <div class="container">
         <div class="work__inner">
           <h2 class="work__title">
             Как мы работаем
@@ -226,11 +231,10 @@
               Договор
             </button>
         </div>
-      </div>
     </section>
 
     <section class="questions">
-      <div class="container">
+
         <h2 class="questions__title">
           Часто задаваемые вопросы
         </h2>
@@ -299,12 +303,11 @@
                 fill="#666666" />
             </svg>
         </div>
-      </div>
     </section>
   </main>
 
    <footer class="footer">
-    <div class="container">
+     <div class="container">
       <div class="footer__inner">
         <div class="footer__left">
           <div class="footer__icon">
@@ -505,7 +508,8 @@
     </div>
   </footer>
 
-<script src="js/script.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
 
 </body>
 
