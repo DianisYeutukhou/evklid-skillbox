@@ -227,23 +227,36 @@
     margin-bottom: 10px;
   }
 
-  .work__inner {
-    background-image: url(/img/how-we-1024.jpg);
-    background-repeat: no-repeat;
-    background-size: 436px 690px;
-    background-position: 487px 192px;
-  }
-
-  .work__list {
-    margin-bottom: 51px;
+  .work__nav {
+    margin-bottom: 50px;
   }
 
   .work__item {
-    width: 19%;
+    width: 17%;
   }
 
   .work__item:nth-child(3) {
     margin-right: 6px;
+  }
+
+  .work__info-1 {
+    background-size: 437px 687px;
+    background-position: 487px 12px;
+  }
+
+  .work__info-2 {
+    background-size: 437px 530px;
+    background-position: 487px 12px;
+  }
+
+  .work__info-3 {
+    background-size: 437px 658px;
+    background-position: 487px 12px;
+  }
+
+  .work__info-4 {
+    background-size: 437px 498px;
+    background-position: 487px 12px;
   }
 
   .work__text {
@@ -410,24 +423,39 @@
     height: 120px;
   }
 
-  .work__list {
+  .work__nav {
     max-width: 100%;
     justify-content: space-between;
     margin-bottom: 49px;
   }
 
   .work__item {
-    width: 8%;
+    width: 10%;
+  }
+
+  .work__info {
+    background: none;
   }
 
   .work__img {
     display: block;
-    background: no-repeat url(/img/how__we-768.jpg);
     margin-bottom: 38px;
   }
 
-  .work__inner {
-    background: none;
+  .work__img-1 {
+    background: no-repeat url(/img/work__info-1.jpg);
+  }
+
+  .work__img-2 {
+    background: no-repeat url(/img/work__info-2.jpg);
+  }
+
+  .work__img-3 {
+    background: no-repeat url(/img/work__info-3.jpg);
+  }
+
+  .work__img-4 {
+    background: no-repeat url(/img/work__info-4.jpg);
   }
 
   .work__text {
@@ -750,11 +778,11 @@
   }
 
   .work__nav {
-    margin-bottom: 13px;
+    margin-bottom: 11px;
   }
 
   .work__item {
-    width: 16%;
+    width: 20%;
   }
 
   .work__item:nth-child(3) {
@@ -766,10 +794,10 @@
   }
 
   .work__img {
-    background: no-repeat url(/img/how-we-320.png);
     height: 160px;
-    margin-bottom: 16px;
-  }
+    background-size: 290px 159px;
+    margin-bottom: 14px;
+}
 
   .work__name {
     font-size: 18px;

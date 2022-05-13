@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+  <link rel="stylesheet" href="accordion/dist/accordion.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
 </head>
@@ -213,6 +214,7 @@
 
         <div class="work__content">
           <div class="work__info work__info-1 work__info-active" data-target="#tab-1">
+            <div class="work__img work__img-1"></div>
             <h3 class="work__name">
               Проводим консультацию
             </h3>
@@ -236,6 +238,7 @@
           </div>
 
           <div class="work__info work__info-2" data-target="#tab-2">
+            <div class="work__img work__img-2"></div>
             <h3 class="work__name">
               Составляем смету
             </h3>
@@ -256,6 +259,7 @@
           </div>
 
           <div class="work__info work__info-3" data-target="#tab-3">
+            <div class="work__img work__img-3"></div>
             <h3 class="work__name">
               Привлекаем подрядчиков
             </h3>
@@ -278,6 +282,7 @@
           </div>
 
           <div class="work__info work__info-4" data-target="#tab-4">
+            <div class="work__img work__img-4"></div>
             <h3 class="work__name">
               Инспектируем все этапы работ
             </h3>
@@ -298,9 +303,6 @@
           </div>
         </div>
 
-        <div class="work__img">
-        </div>
-
       </div>
     </section>
 
@@ -310,76 +312,7 @@
         Часто задаваемые вопросы
       </h2>
 
-      <div class="questions__option">
-        <p class="questions__text questions__text-1">
-          Из&nbsp;чего формируется конечная стоимость проекта?
-        </p>
 
-        <svg class="questions__img questions__img1" width="50" height="50" viewbox="0 0 50 50" fill="none"
-          xmlns="http://www.w3.org/2000/svg">
-          <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC" />
-          <path fill-rule="evenodd" clip-rule="evenodd"
-            d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z"
-            fill="#666666" />
-        </svg>
-      </div>
-
-      <div class="questions__option">
-        <p class="questions__text questions__text-2">
-          У&nbsp;меня есть свой проект. Сможем&nbsp;ли мы&nbsp;его доработать<span class="questions__slash">/</span>
-          реализовать?
-        </p>
-        <svg class="questions__img" width="50" height="50" viewbox="0 0 50 50" fill="none"
-          xmlns="http://www.w3.org/2000/svg">
-          <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC" />
-          <path fill-rule="evenodd" clip-rule="evenodd"
-            d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z"
-            fill="#666666" />
-        </svg>
-      </div>
-
-      <div class="questions__option">
-        <p class="questions__text questions__text-3">
-          Я&nbsp;выбираю между разными компаниями. В&nbsp;чём ваше отличие?
-        </p>
-
-        <svg class="questions__img questions__img-3" width="50" height="50" viewbox="0 0 50 50" fill="none"
-          xmlns="http://www.w3.org/2000/svg">
-          <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC" />
-          <path fill-rule="evenodd" clip-rule="evenodd"
-            d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z"
-            fill="#666666" />
-        </svg>
-      </div>
-
-      <div class="questions__option">
-        <p class="questions__text questions__text-4">
-          Могу&nbsp;ли я&nbsp;делегировать вам работу<span class="questions__slash">/</span>согласование
-          с&nbsp;подрядчиком<span class="questions__slash">/</span>организацией?
-        </p>
-
-        <svg class="questions__img" width="50" height="50" viewbox="0 0 50 50" fill="none"
-          xmlns="http://www.w3.org/2000/svg">
-          <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC" />
-          <path fill-rule="evenodd" clip-rule="evenodd"
-            d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z"
-            fill="#666666" />
-        </svg>
-      </div>
-
-      <div class="questions__option">
-        <p class="questions__text questions__text-5">
-          Могу&nbsp;ли я&nbsp;вернуть деньги на&nbsp;каком-либо из&nbsp;этапов работ?
-        </p>
-
-        <svg class="questions__img questions__img-5" width="50" height="50" viewbox="0 0 50 50" fill="none"
-          xmlns="http://www.w3.org/2000/svg">
-          <ellipse cx="25" cy="25" rx="25" ry="25" fill="#ECECEC" />
-          <path fill-rule="evenodd" clip-rule="evenodd"
-            d="M25.0571 24.0571L25.0571 9L25.9429 9L25.9429 24.0571L33.8835 24.0571L41 24.0571L41 24.9429L25.9429 24.9429L25.9429 40L25.0571 40L25.0571 24.9429L10 24.9429L10 24.0571L25.0571 24.0571Z"
-            fill="#666666" />
-        </svg>
-      </div>
     </section>
   </main>
 
@@ -589,6 +522,7 @@
   </footer>
 
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="accordion/dist/accordion.min.js"></script>
   <script src="js/script.js"></script>
 
 </body>
